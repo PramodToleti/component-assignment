@@ -1,0 +1,77 @@
+.demo-form-container {
+  width: 30%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-heading {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 23px;
+  margin-top: 0px;
+}
+
+.demo-sub-form-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.demo-form-body {
+  width: 100%;
+  height: 100%;
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  outline: none;
+}
+
+.button {
+  border: 0;
+  background: transparent;
+  font-family: "Roboto";
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.back-button {
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.add-remove-btn-container {
+  display: flex;
+  gap: 25px;
+}
+
+.add-remove-btn {
+  color: grey;
+  border: 0;
+  background: transparent;
+  font-size: 15px;
+  margin-top: 5px;
+}

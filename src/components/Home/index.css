@@ -1,0 +1,47 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.home-body {
+  width: 70%;
+  height: 80vh;
+}
+
+.main {
+  border: 1px solid grey;
+  height: 100%;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.demos-header-container {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.demo-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.demo-heading {
+  font-size: 20px;
+}
+
+.active-demo {
+  color: blue;
+}
+
+.demo-container {
+  height: 70%;
+  padding: 15px;
+}
